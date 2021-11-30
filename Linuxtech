@@ -180,3 +180,91 @@ Restart Apache with the command:
 sudo systemctl restart apache2
 How to finish the installation
 Your venture into the command line is complete. Now you can open a browser and point it to http://SERVER_IP/nextcloud (where SERVER_IP is the IP address of the hosting server). You'll first be greeted by the web-based installer (Figure A).
+
+
+How to make a new directory in ubuntu tutorial
+
+
+inux mkdir Command Syntax
+The syntax for the mkdir command is as follows:
+
+mkdir [OPTION] [DIRECTORY]
+Copy
+The command takes one or more directory names as its arguments.
+
+How to Create a New Directory
+To create a directory in Linux, pass the directory’s name as the argument to the mkdir command. For example, to create a new directory newdir, you would run the following command:
+mkdir newdir
+Copy
+You can verify that the directory was created by listing the contents using the ls command :
+
+ls -l
+Copy
+drwxrwxr-x 2 username username 4096 Jan 20 03:39 newdir
+Copy
+When providing only the directory name, without the full path, it is created in the current working directory.
+The current working directory is the directory from which you are running the commands. To change the current working directory, use the cd command.
+
+To create a new directory in another location, you’ll need to provide the parent directory’s absolute or relative file path. For example, to create a new directory in the /tmp directory you would type:
+
+mkdir /tmp/newdir
+Copy
+If you try to create a directory in a parent directory where the user does not have sufficient permissions, you will receive Permission denied error:
+
+mkdir /root/newdir
+Copy
+mkdir: cannot create directory '/root/newdir': Permission denied
+Copy
+The -v (--verbose) option tells mkdir to print a message for each created directory.
+
+How to Create Parent Directories
+A parent directory is a directory that is above another directory in the directory tree. To create parent directories, use the -p option.
+Let’s say you want to create a directory /home/linuxize/Music/Rock/Gothic:
+
+mkdir /home/linuxize/Music/Rock/Gothic
+Copy
+If any of the parent directories don’t exist, you will get an error as shown below:
+
+mkdir: cannot create directory '/home/linuxize/Music/Rock/Gothic': No such file or directory
+Copy
+Instead of creating the missing parent directories one by one, invoke the mkdir command with the -p option:
+
+mkdir -p /home/linuxize/Music/Rock/Gothic
+Copy
+When the -p option is used, the command creates the directory only if it doesn’t exist.
+
+If you try to create a directory that already exists and the -p option is not provided, mkdir will print File exists error:
+
+mkdir newdir
+Copy
+mkdir: cannot create directory 'newdir': File exists
+Copy
+How to Set Permissions when Creating a Directory
+To create a directory with specific permissions, invoke the mkdir commanf with the -m (-mode) option. The syntax for assigning permissions is the same as with the chmod command.
+
+In the following example, we’re creating a new directory with 700 permissions, which means that only the user who created the directory will be able to access it:
+mkdir -m 700 newdir
+Copy
+When the -m option is not used, the newly created directories usually have either 775 or 755 permissions, depending on the umask value.
+
+How to Create Multiple Directories
+To create multiple directories, specify the directories' names as the command arguments, separated by space:
+mkdir dir1 dir2 dir3
+Copy
+The mkdir command also allows you to create a complex directory tree with one command:
+mkdir -p Music/{Jazz/Blues,Folk,Disco,Rock/{Gothic,Punk,Progressive},Classical/Baroque/Early}
+Copy
+The command above creates the following directory tree :
+
+Music/
+|-- Classical
+|   `-- Baroque
+|       `-- Early
+|-- Disco
+|-- Folk
+|-- Jazz
+|   `-- Blues
+`-- Rock
+    |-- Gothic
+    |-- Progressive
+    `-- Punk
