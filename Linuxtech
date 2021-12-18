@@ -182,6 +182,139 @@ How to finish the installation
 Your venture into the command line is complete. Now you can open a browser and point it to http://SERVER_IP/nextcloud (where SERVER_IP is the IP address of the hosting server). You'll first be greeted by the web-based installer (Figure A).
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project-Opdrachtgever-Auteur-Datum-Versie
+
+ 
+
+Inhoud
+
+Opdracht
+Aanleiding en Knelpunten
+Eisen/Wensen
+3.1         Must haves
+
+3.2         Should haves
+
+3.3         Could haves
+
+3.4         Won’t haves
+
+Uit te voeren werkzaamheden
+ 
+
+OPDRACHT
+Beschrijf hier de opdracht die geleid heeft tot het opstellen van deze behoefteanalyse.
+
+ 
+
+VOORBEELD:
+
+Thomson Hotels is een keten met ongeveer 280 medewerkers verdeeld over 4 locaties, Zwitserland, Frankrijk Engeland en Nederland. De hoofd directie is in Zwitserland, Hotel Weissburg, de automatisering wordt vanuit Nederland centraal opgezet voor de nieuwe situatie. Comp-U-Serve heef de opdracht gegund gekregen om de automatisering te standaardiseren. Comp-U-serve zal de migratie van het informatie systeem gaan uitvoeren.
+Na de migratie zal het dagelijks beheer door de afdeling Systeem Services van het Thomson Hotel worden uitgevoerd
+
+ 
+
+ 
+
+Aanleiding en Knelpunten
+Beschrijf hier de reden die aanleiding waren voor het geven van de opdracht voor het opstellen van deze behoefteanalyse en beschrijf hier de problemen die nu bestaan in de huidige manier van werken.
+
+ 
+
+VOORBEELD:
+
+John Thomson wil de automatisering standaardiseren. Hij wil een contract met een extern ICT-bedrijf dat gaat samenwerken met de interne dienst automatisering (System Services). Comp-U-Serve is als partij uit de aanbesteding gekomen. Comp-U-Serve zal de migratie van het informatiesysteem gaan uitvoeren. Na de oplevering zal System Services het informatiesysteem zelf gaan beheren. In Zwitserland is men gewend aan Unix. Ze zien echter de beperkingen en willen eventueel wel overstappen op Linux. In Engeland zijn ze nogal eilandgericht en willen graag vasthouden aan Apple, vooral omdat ze dit vijf maanden geleden volledig hebben geïmplementeerd. Dit is echter gebeurd zonder overleg met de centrale directie. In Frankrijk is
+
+vorig jaar het draadloos netwerk aangelegd. Hier zijn nog steeds veel problemen mee. Er is
+
+geen stabiele verbinding en de beveiliging is al twee keer gekraakt. De bedoeling is dat er één informatiesysteem komt, dat vanaf alle vestigingen toegankelijk is. De vestiging in Maastricht moet alle servers kunnen beheren. Daarnaast moeten de lokale systeembeheerders het centrale beheer kunnen assisteren. Voordat dit project in de operationele omgeving wordt geïmplementeerd, zal er eerst een gedegen ontwerp moeten komen. Ter onderbouwing
+
+en bewijs van het ontwerp is het de bedoeling dat er ook van alle uitgewerkte oplossingen een proefopstelling komt (Proof of Concept).
+
+ 
+
+ 
+
+Eisen/Wensen
+Geef hier een overzicht van de eisen en wensen. Gebruik hier de MoSCoW-onderverdeling
+
+Must haves
+
+Eisen (requirements) die in het eindresultaat moeten terugkomen. Zonder deze eisen is het product niet bruikbaar.
+
+ 
+
+Should haves
+
+Eisen die zeer gewenst zijn. Zonder deze functies is het product wel bruikbaar.
+
+ 
+
+Could haves
+
+Eisen die alleen aan bod zullen komen als er tijd genoeg is.
+
+ 
+
+Won’t haves
+
+Eisen die in dit project niet aan bod komen, maar in de toekomst bij een vervolgproject interessant kunnen zijn.
+
+ 
+
+VOORBEELD:
+
+Nieuwe infrastructuur, centraal/decentraal te beheren en internet toegang voor de gasten.
+
+ 
+
+ 
+
+Uit te voeren werkzaamheden
+In dien gevraagd wordt om bepaalde werkzaamheden uit te voeren, worden hier vermeld.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 How to make a new directory in ubuntu tutorial
 
 
