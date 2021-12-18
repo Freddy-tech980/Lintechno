@@ -288,6 +288,9 @@ Uit te voeren werkzaamheden
 In dien gevraagd wordt om bepaalde werkzaamheden uit te voeren, worden hier vermeld.
 
 
+Apache activeren (sudo systemctl start apache2)
+Mysql activeren (sudo systemctl start mysql)
+Php activeren (sudo systemctl start php)
 
 
 
