@@ -193,6 +193,15 @@ port 53 (dns
 
 
 
+Virtualhost 
+cd /var 
+cd /www
+cd /html
+cd /nextcloud
+cd /config
+sudo nano config.php
+
+(2nd number has to be on zero, but first you have to make an AA-Record in your dns server)
 
 
 
