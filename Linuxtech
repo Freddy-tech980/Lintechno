@@ -182,6 +182,20 @@ How to finish the installation
 Your venture into the command line is complete. Now you can open a browser and point it to http://SERVER_IP/nextcloud (where SERVER_IP is the IP address of the hosting server). You'll first be greeted by the web-based installer (Figure A).
 
 
+THIS IS HOW YOU ALLOW THE PREFERED PORTS ON YOUR UBUNTU
+
+
+port 80 (http)
+
+port 443 (https)
+
+port 53 (dns
+
+
+
+
+
+
 
 
 
