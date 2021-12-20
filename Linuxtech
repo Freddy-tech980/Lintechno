@@ -203,7 +203,16 @@ sudo nano config.php
 
 (2nd number has to be on zero, but first you have to make an AA-Record in your dns server)
 
+How to install slack on ubuntu
+sudo snap install slack --classic
 
+Now that you have Slack installed on your Ubuntu desktop, you can start it either from the command line by typing slack or by clicking on the Slack icon (Activities → Slack).
+
+cat /etc/apt/sources.list.d/slack.list
+
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb https://packagecloud.io/slacktechnologies/slack/debian/ jessie main
 
 
 
